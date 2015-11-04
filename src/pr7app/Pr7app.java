@@ -35,6 +35,7 @@ public class Pr7app {
         
         while ((bytesRead = reader.read(buffer)) > 0) {
             writer.write(buffer, 0, bytesRead);
+            
         }
         writer.close();
         reader.close();
